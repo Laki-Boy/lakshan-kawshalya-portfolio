@@ -26,6 +26,7 @@ html {
 
 .grid-container {
   display: grid;
+  overflow: hidden;
 }
 
 .heading-1 {
@@ -118,6 +119,30 @@ html {
 .hero-img {
   width: 18.75em;
   height: 18.75em;
+}
+
+.hero-text-role-cursor {
+  display: inline-block;
+  width: 3px;
+  margin: -100px 0 0 0;
+  background-color: var(--white);
+  animation: blink 1s infinite;
+}
+
+.hero-text-role-cursor.typing {
+  animation: none;
+}
+
+@keyframes blink {
+  0% {
+    background-color: var(--white);
+  }
+  50% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: var(--white);
+  }
 }
 
 /* about section common */
