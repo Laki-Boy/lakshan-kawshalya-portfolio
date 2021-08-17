@@ -137,8 +137,14 @@ html {
   0% {
     background-color: var(--white);
   }
+  48% {
+    background-color: var(--white);
+  }
   50% {
     background-color: transparent;
+  }
+  98% {
+    background-color: var(--white);
   }
   100% {
     background-color: var(--white);
