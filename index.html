@@ -38,6 +38,8 @@
         onclick="mobileNavigationToggler();"
       ></div>
 
+      <div class="logo"><img src="assets/logo-lk.svg" alt="lk"></div>
+
       <div class="navbar navbar-dekstop" id="navbar">
         <div class="navbar-item-list">
           <a
@@ -180,14 +182,16 @@
           </p>
 
           <div class="content">
-            <button
-              class="btn cta-btn"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-offset="10"
+            <a href="#contact"
+              ><button
+                class="btn cta-btn"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-offset="10"
+              >
+                Contact me
+              </button></a
             >
-              Contact me
-            </button>
           </div>
 
           <p
@@ -368,7 +372,7 @@
             </p>
             <div class="service-card">
               <p data-aos="fade-up" data-aos-duration="1000">
-                UI/UX Designing.
+                UI/UX Designing
               </p>
             </div>
             <p
@@ -390,7 +394,7 @@
             </p>
             <div class="service-card">
               <p data-aos="fade-up" data-aos-duration="1000">
-                UI/UX Designing.
+                Web Developing
               </p>
             </div>
             <p
@@ -412,7 +416,7 @@
             </p>
             <div class="service-card">
               <p data-aos="fade-up" data-aos-duration="1000">
-                UI/UX Designing.
+                Brand & Identity Developing
               </p>
             </div>
             <p
@@ -458,13 +462,15 @@
           </p>
 
           <div class="content">
-            <button
-              class="btn freelance-btn"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
-              Contact me for freelancing
-            </button>
+            <a href="#contact">
+              <button
+                class="btn freelance-btn"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                Contact me for freelancing
+              </button>
+            </a>
           </div>
 
           <p
@@ -856,7 +862,6 @@
                     class="contact-details-point"
                     data-aos="fade-up"
                     data-aos-duration="1000"
-                    data-aos-offset="10"
                   >
                     Email me.
                   </h1>
@@ -867,7 +872,6 @@
                   style="margin-top: 0"
                   data-aos="fade-right"
                   data-aos-duration="1000"
-                  data-aos-offset="10"
                 >
                   &lt;/span&gt;
                 </p>
@@ -876,7 +880,6 @@
                   class="html-tags tag-l-5"
                   data-aos="fade-right"
                   data-aos-duration="1000"
-                  data-aos-offset="10"
                 >
                   &lt;p&gt;
                 </p>
@@ -885,7 +888,6 @@
                     class="contact-details-point-desc"
                     data-aos="fade-up"
                     data-aos-duration="1000"
-                    data-aos-offset="10"
                   >
                     hello@lakshankawshalya.com
                   </p>
@@ -895,7 +897,6 @@
                   style="margin-top: 0"
                   data-aos="fade-right"
                   data-aos-duration="1000"
-                  data-aos-offset="10"
                 >
                   &lt;/p&gt;
                 </p>
@@ -912,44 +913,47 @@
               </p>
 
               <div class="content">
-                <input
-                  type="text"
-                  class="form-input form-input-text"
-                  placeholder="Name"
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                />
-                <input
-                  type="text"
-                  class="form-input form-input-text"
-                  placeholder="Email Address"
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                />
-                <input
-                  type="text"
-                  class="form-input form-input-text"
-                  placeholder="Subject"
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                />
-                <textarea
-                  cols="30"
-                  rows="10"
-                  class="form-input form-input-textarea"
-                  placeholder="Message"
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                ></textarea>
+                <form">
+                  <input
+                    type="text"
+                    class="form-input form-input-text"
+                    placeholder="Name"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                  />
+                  <input
+                    type="email"
+                    class="form-input form-input-text"
+                    placeholder="Email Address"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                  />
+                  <input
+                    type="text"
+                    class="form-input form-input-text"
+                    placeholder="Subject"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                  />
+                  <textarea
+                    cols="30"
+                    rows="10"
+                    class="form-input form-input-textarea"
+                    placeholder="Message"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                  ></textarea>
 
-                <button
-                  class="btn form-btn"
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                  data-aos-offset="10"
-                >
-                  Send Message
-                </button>
+                  <button
+                    type="submit"
+                    class="btn form-btn"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-offset="10"
+                  >
+                    Send Message
+                  </button>
+                </form>
               </div>
               <p
                 class="html-tags tag-l-4"
@@ -970,9 +974,11 @@
       </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="script.js"></script>
 
     <script>
       AOS.init();
