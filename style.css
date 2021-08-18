@@ -298,6 +298,10 @@ html {
     top: 0.625em;
   }
 
+  .mobile-logo-space {
+    height: 3.25em;
+  }
+
   /* navigation mobile */
   .navbar-dekstop {
     display: none;
@@ -339,7 +343,6 @@ html {
   .landing-section {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    margin-top: 3.5em;
   }
 
   .hero-text-intro {
