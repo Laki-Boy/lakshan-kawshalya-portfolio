@@ -351,7 +351,7 @@ html {
   }
 
   .hero-text-role {
-    font-size: 2.813rem;
+    font-size: 2.5rem;
     margin: 0;
   }
 
@@ -435,6 +435,7 @@ html {
 
   .why-me-point {
     font-size: 1.5rem;
+    width: 90%;
   }
 
   .why-me-point-desc {
@@ -670,6 +671,7 @@ html {
 
   .why-me-point {
     font-size: 2.625rem;
+    width: 90%;
   }
 
   .why-me-point-desc {
