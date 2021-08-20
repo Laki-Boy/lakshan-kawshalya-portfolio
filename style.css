@@ -62,6 +62,12 @@ html {
   margin: 0.208em 0 0.208em 0;
 }
 
+.btn:hover {
+  background-color: var(--secondary-color);
+  transition: 100ms;
+  cursor: pointer;
+}
+
 /* navigation common */
 
 .navbar {
@@ -85,9 +91,13 @@ html {
   font-family: var(--primary-font);
   font-weight: 400;
   text-align: center;
-  line-height: 4;
+  padding: 20px;
   color: var(--white);
   text-decoration: none;
+}
+
+.navbar-nav-link:hover {
+  color: #aaa;
 }
 
 /* landing section common */
@@ -240,6 +250,17 @@ html {
   padding-top: 1.25em;
   min-height: 3.125em;
   height: 9.375em;
+}
+
+/* social-media common  */
+
+.social-media-icon {
+  width: 50px;
+  cursor: pointer;
+}
+
+.social-media-icon-group {
+  display: flex;
 }
 
 /* mobile */
@@ -498,6 +519,18 @@ html {
     padding: 0.2em;
     margin-left: 0.7em;
   }
+
+  /* social-media mobile  */
+
+  .social-media-icon {
+    margin: 40px auto 40px auto;
+  }
+
+  .social-media-icon-group {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* dekstop */
@@ -733,5 +766,19 @@ html {
     width: 9em; /*230px*/
     padding: 0.5em;
     margin-left: 0.7em;
+  }
+
+  /* social-media dekstop  */
+
+  .social-media-icon {
+    margin: 60px 0px 60px 50px;
+    border-radius: 100%;
+    border: none;
+  }
+
+  .social-media-icon-group {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
